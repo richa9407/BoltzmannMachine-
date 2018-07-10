@@ -5,7 +5,7 @@ import torch.nn as nn
 import torch.nn.parallel
 import torch.optim as optim
 import torch.utils.data
-from torch.autograd import Variable
+from torch.autograd import Variabl
 
 movies = pd.read_csv('/Users/savita/desktop/ml-1m/movies.dat',sep='::',header=None,engine='python',encoding='latin-1')
 users = pd.read_csv('/Users/savita/desktop/ml-1m/users.dat',sep='::',header=None,engine='python',encoding='latin-1')
